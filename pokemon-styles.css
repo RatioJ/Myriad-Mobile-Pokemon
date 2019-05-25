@@ -1,0 +1,146 @@
+@charset "utf-8";
+body {
+    width: 1024px;
+    height: 1024px;
+    max-width: 1024px;
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#container #forward img {
+	position: absolute;
+	top: 24px;
+	left: 24px;
+	
+}
+#container {
+    height: 1024px;
+    background-color: #55A69C;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1024px;
+}
+#container .search {
+    background-color: #000000;
+    width: 456px;
+    height: 96px;
+	position: absolute;
+	top: 40px;
+	left: 284px;
+	border-radius: 7px;
+}
+#container .search input {
+    width: 456px;
+    height: 96px;
+    border-radius: 7px;
+    background-color: #4E9A90;
+}
+#container #back {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 56px;
+    left: 72px;
+    border-radius: 64px;
+    background-color: #418078;
+}
+#container #forward {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 56px;
+    left: 888px;
+    border-radius: 64px;
+    background-color: #418078;
+}
+
+.search input[type=text] {
+	font-family: 'Roboto';
+	font-size: 56px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	line-height: 24px;
+}
+#container #back img {
+	position: absolute;
+	top: 24px;
+	left: 24px;
+}
+#nav {
+    background-color: #4B9089;
+    height: 200px;
+	border-bottom: thin solid #000000;
+}
+
+@media (max-width:640px){
+    body {
+  		width: 320px;
+    	height: 640px;
+    }
+	#container {
+		width: 320px;
+		height: 640px;
+	}
+	#container .search {
+		position: absolute;
+		top: 40px;
+		left: 6px;
+    	width: 304px;
+    	height: 48px;
+    	border-radius: 7px;
+    	background-color: #4E9A90;
+	}
+	.search input[type=text] {
+		font-family: 'Roboto';
+		font-size: 24px;
+		font-weight: bold;
+		color: #000000;
+		text-align: center;
+		line-height: 24px;
+	}
+
+	#container .search input {
+    	width: 304px;
+    	height: 48px;
+	}
+	#container #forward {
+   		position: absolute;
+    	left: 160px;
+    	top: 588px;
+    	width: 158px;
+    	height: 50px;
+    	border-radius: 0px;
+    	background-color: #468A82;
+		/** border: thin solid #000000; */
+		border-top: thin solid #000000;
+		border-bottom: thin solid #000000;
+		border-right: thin solid #000000;
+	}
+	#container #back {
+		position: absolute;
+		left: 0px;
+		top: 588px;
+    	width: 158px;
+    	height: 50px;
+    	border-radius: 0px;
+   		background-color: #468A82;
+		border: thin solid #000000;
+	}
+	#container #forward img {
+		position: absolute;
+		top: 17px;
+		left: 70px;
+	}
+	#container #back img {
+		position: absolute;
+		top: 17px;
+		left: 70px;
+	}
+	#nav {
+		height: 30px;
+		width: 320px;
+		border-bottom: thin solid #000000;
+	}
+}
