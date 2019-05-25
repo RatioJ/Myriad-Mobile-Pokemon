@@ -73,6 +73,18 @@ body {
     height: 200px;
 	border-bottom: thin solid #000000;
 }
+#container #main {
+    width: auto;
+    height: 824px;
+	padding: 15px;
+}
+#container .search img {
+    position: absolute;
+    bottom: 35px;
+    left: 12px;
+}
+
+
 
 @media (max-width:640px){
     body {
@@ -142,5 +154,16 @@ body {
 		height: 30px;
 		width: 320px;
 		border-bottom: thin solid #000000;
+	}
+	#container #main {
+    	width: 320px;
+    	height: 490px;
+		position: absolute;
+		top: 100px;
+		padding: 10px;
+	}
+	#container .search img {
+    	position: absolute;
+    	top: 20px;
 	}
 }
