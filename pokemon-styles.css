@@ -63,7 +63,7 @@ body {
 	text-align: center;
 	line-height: 24px;
 }
-#boxhead {
+.boxhead {
 	padding: 15px 15px 20px 15px;
 	font-family: 'Roboto';
 	font-size: 16px;
@@ -124,6 +124,111 @@ body {
 	background-color: #FFFFFF;
 	border-radius: 2px;
 }
+.icon {
+    width: 106px;
+    height: 106px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#box1 .type1 {
+    height: 22px;
+    width: 56px;
+    position: absolute;
+    left: 76px;
+    bottom: 21px;
+    border-radius: 5px;
+    border: thin solid #52C41A;
+    background-color: #52C41A;
+}
+#box1 .type2 {
+    width: 56px;
+    height: 22px;
+    position: absolute;
+    bottom: 21px;
+    right: 21px;
+    border-radius: 5px;
+    border: thin solid #722ED1;
+    background-color: #722ED1;
+}
+#box2 .type1 {
+    height: 22px;
+    width: 56px;
+    position: absolute;
+    left: 76px;
+    bottom: 21px;
+    border-radius: 5px;
+    border: thin solid #52C41A;
+    background-color: #52C41A;
+}
+#box2 .type2 {
+    width: 56px;
+    height: 22px;
+    position: absolute;
+    bottom: 21px;
+    right: 21px;
+    border-radius: 5px;
+    border: thin solid #722ED1;
+    background-color: #722ED1;
+}
+#box3 .type1 {
+    height: 22px;
+    width: 56px;
+    position: absolute;
+    left: 76px;
+    bottom: 21px;
+    border-radius: 5px;
+    border: thin solid #52C41A;
+    background-color: #52C41A;
+}
+#box3 .type2 {
+    width: 56px;
+    height: 22px;
+    position: absolute;
+    bottom: 21px;
+    right: 21px;
+    border-radius: 5px;
+    border: thin solid #722ED1;
+    background-color: #722ED1;
+}
+#box4 .type2 {
+    width: 56px;
+    height: 22px;
+    position: absolute;
+    bottom: 21px;
+    right: 21px;
+    border-radius: 5px;
+    border: thin solid #fa541c;
+    background-color: #fa541c;
+}
+.type1 p {
+    font-family: 'SF UI Text';
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    bottom: 7px;
+}
+.type2 p {
+    font-family: 'SF UI Text';
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    bottom: 7px;
+}
+.title h1 {
+	position: absolute;
+	top: 40px;
+	left: 312px;
+	height: 24px;
+	width: 401px;
+	font-family: 'Roboto';
+	font-size: 56px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	line-height: 24px;
+}
+
 
 
 @media (max-width:640px){
@@ -131,6 +236,7 @@ body {
   		width: 320px;
     	height: 640px;
     }
+
 	#container {
 		width: 320px;
 		height: 640px;
@@ -239,8 +345,21 @@ body {
 		background-color: #ffffff;
 		border-radius: 2px;
 	}
-	#boxhead {
+	.boxhead {
 		text-align: center;
 		padding: 10px 0px 15px 0px;
+	}
+	.icon {
+    	width: 96px;
+    	height: 96px;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+	.type1 {
+		visibility: hidden;
+	}
+	.type2 {
+		visibility: hidden;
 	}
 }

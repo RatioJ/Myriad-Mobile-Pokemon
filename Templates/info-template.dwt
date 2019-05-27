@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Pokedex App</title>
+<!-- TemplateEndEditable -->
+<link href="../pokemon-styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<div id="container">
+	<div class="title">
+	  	<h1>Pokemon</h1>
+	</div>
+	<div id="nav">
+		<a href="../index.html"><div id="back"><img src="../images/leftarrow.png" width="16" height="16" alt=""/></div></a>
+		<a href=""><div id="forward"><img src="../images/rightarrow.png" width="16" height="16" alt=""/></div></a>
+	</div>
+  	<div id="main">
+
+	</div>
+</div>
+</body>
+</html>
