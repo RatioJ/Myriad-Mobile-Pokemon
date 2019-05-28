@@ -70,6 +70,7 @@ body {
 	font-weight: bold;
 	text-align: left;
 	border-bottom: thin solid #000000;
+	color: #000000;
 }
 
 #container #back img {
@@ -110,9 +111,9 @@ body {
 }
 #box3 {
 	position: absolute;
-	left: 520px;
+	left: 521px;
 	width: 220px;
-	height: 252px;
+	height: 251px;
 	background-color: #FFFFFF;
 	border-radius: 2px;
 }
@@ -140,6 +141,7 @@ body {
     border-radius: 5px;
     border: thin solid #52C41A;
     background-color: #52C41A;
+	color: #000000;
 }
 #box1 .type2 {
     width: 56px;
@@ -150,6 +152,7 @@ body {
     border-radius: 5px;
     border: thin solid #722ED1;
     background-color: #722ED1;
+	color: #000000;
 }
 #box2 .type1 {
     height: 22px;
@@ -160,6 +163,7 @@ body {
     border-radius: 5px;
     border: thin solid #52C41A;
     background-color: #52C41A;
+	color: #000000;
 }
 #box2 .type2 {
     width: 56px;
@@ -170,6 +174,7 @@ body {
     border-radius: 5px;
     border: thin solid #722ED1;
     background-color: #722ED1;
+	color: #000000;
 }
 #box3 .type1 {
     height: 22px;
@@ -180,6 +185,7 @@ body {
     border-radius: 5px;
     border: thin solid #52C41A;
     background-color: #52C41A;
+	color: #000000;
 }
 #box3 .type2 {
     width: 56px;
@@ -190,6 +196,7 @@ body {
     border-radius: 5px;
     border: thin solid #722ED1;
     background-color: #722ED1;
+	color: #000000;
 }
 #box4 .type2 {
     width: 56px;
@@ -200,6 +207,7 @@ body {
     border-radius: 5px;
     border: thin solid #fa541c;
     background-color: #fa541c;
+	color: #000000;
 }
 .type1 p {
     font-family: 'SF UI Text';
@@ -207,6 +215,7 @@ body {
     text-align: center;
     position: relative;
     bottom: 7px;
+	color: #000000;
 }
 .type2 p {
     font-family: 'SF UI Text';
@@ -214,21 +223,95 @@ body {
     text-align: center;
     position: relative;
     bottom: 7px;
+	color: #000000;
 }
+
+/** Info Page Styles */
 .title h1 {
 	position: absolute;
-	top: 40px;
+	top: 25px;
 	left: 312px;
 	height: 24px;
 	width: 401px;
 	font-family: 'Roboto';
-	font-size: 56px;
+	font-size: 72px;
 	font-weight: bold;
 	color: #ffffff;
 	text-align: center;
 	line-height: 24px;
 }
-
+#infohead h1 {
+	position: relative;
+	top: 8px;
+	font-size: 32px;
+	width: 166px;
+}
+#maininfo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 664px;
+	height: 712px;
+	background-color: #ffffff;
+	position: relative;
+	top: 20px;
+}
+#infohead {
+	width: 664;
+	height: 55px;
+	border-bottom: thin solid #000000;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+#infohead .type2 {
+	position: absolute;
+	right: 16px;
+	top: 16px;
+    width: 56px;
+    height: 22px;
+    border-radius: 5px;
+    border: thin solid #722ED1;
+    background-color: #722ED1;
+}
+#infohead .type1 {
+	position: absolute;
+	right: 80px;
+	top: 16px;
+    width: 56px;
+    height: 22px;
+    border-radius: 5px;
+    border: thin solid #52C41A;
+    background-color: #52C41A;
+}
+#maininfo h2 {
+	position: absolute;
+	left: 224px;
+	top: -3px;
+	opacity: 0.5;
+}
+#profile {
+	position: relative;
+	top: 372px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: 32px;
+	width: 584px;
+	background-color: #bea294;
+}
+#profile p {
+	font-family: 'Roboto';
+	font-size: 16px;
+	padding-top: 7px;
+	padding-left: 10px;
+}
+#maininfo img {
+	position: absolute;
+	top: 90px;
+	left: 72px;
+	height: 130px;
+	width: 130px;
+}
 
 
 @media (max-width:640px){

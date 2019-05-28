@@ -17,10 +17,16 @@
 	</div>
 	<div id="nav">
 		<a href="../index.html"><div id="back"><img src="../images/leftarrow.png" width="16" height="16" alt=""/></div></a>
-		<a href=""><div id="forward"><img src="../images/rightarrow.png" width="16" height="16" alt=""/></div></a>
 	</div>
-  	<div id="main">
-
+  	<div id="maininfo">
+		<div id="infohead">
+			<h1>Pokemon</h1>
+			<h2>#1</h2>
+			<div class="type1"><p>GRASS</p></div>
+			<div class="type2"><p>POISON</p></div>
+		</div>
+		<img src="../images/bulbasaur.png" width="250" height="250" alt=""/>
+	  <div id="profile"><p>Profile</p></div>
 	</div>
 </div>
 </body>
