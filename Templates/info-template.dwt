@@ -38,14 +38,38 @@
 			<p>Sp Atk</p>
 			<p>Sp Def</p>
 		</div>
-			<div class="statbar" id="bar1"></div>
-			<div class="statbar" id="bar2"></div>
-			<div class="statbar" id="bar3"></div>
-			<div class="statbar" id="bar4"></div>
-			<div class="statbar" id="bar5"></div>
-			<div class="statbar" id="bar6"></div>
-	  		<div id="profile"><p>Profile</p></div>
+			<div class="statbar" id="bar1"><p>125</p></div>
+			<div class="statbar" id="bar2"><p>125</p></div>
+			<div class="statbar" id="bar3"><p>125</p></div>
+			<div class="statbar" id="bar4"><p>125</p></div>
+			<div class="statbar" id="bar5"><p>125</p></div>
+			<div class="statbar" id="bar6"><p>125</p></div>
+	  	<div id="profile"><p>Profile</p></div>
+		<div id="profilestat1">
+			<p>Height:</p>
+			<p>Catch Rate:</p>
+			<p>Egg Groups:</p>
+			<p>Abilities:</p>
 		</div>
+		<div id="profilestat2">
+			<p>Weight:</p>
+			<p>Gender Ratio:</p>
+			<p>Hatch Steps:</p>
+			<p>EVs:</p>
+		</div>
+		<div id="stats1">
+			<p>2.2 m</p>
+			<p>0%</p>
+			<p>Monster</p>
+			<p>Inner Focus,<br>Early-Bird,<br>Scrappy</p>
+		</div>
+		<div id="stats2">
+			<p>80 kg</p>
+			<p>M-0% F-100%</p>
+			<p>5100</p>
+			<p>2 HP</p>
+		</div>
+	</div>
 </div>
 </body>
 </html>

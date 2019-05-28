@@ -289,6 +289,9 @@ body {
 	top: -3px;
 	opacity: 0.5;
 }
+#maininfo #secondinfo h1 {
+    font-size: 20px;
+}
 #profile {
     position: relative;
     top: 330px;
@@ -333,7 +336,7 @@ body {
 }
 .statbar {
 	position: absolute;
-	top: 100px;
+	top: 103px;
 	left: 432px;
 	height: 18px;
 	width: 188px;
@@ -341,23 +344,89 @@ body {
 }
 #bar2 {
 	position: absolute;
-	top: 125px;
+	top: 128px;
 }
 #bar3 {
 	position: absolute;
-	top: 150px;
+	top: 153px;
 }
 #bar4 {
 	position: absolute;
-	top: 175px;
+	top: 178px;
 }
 #bar5 {
 	position: absolute;
-	top: 200px;
+	top: 203px;
 }
 #bar6 {
 	position: absolute;
-	top: 225px;
+	top: 228px;
+}
+#bar1 p {
+    margin: 0px;
+    width: 94px;
+    height: 18px;
+    background-color: #55A69C;
+}
+#bar2 p {
+	margin: 0px;
+	width: 94px;
+	height: 18px;
+	background-color: #55A69C;
+}
+#bar3 p {
+	margin: 0px;
+	width: 94px;
+	height: 18px;
+	background-color: #55A69C;
+}
+#bar4 p {
+	margin: 0px;
+	width: 94px;
+	height: 18px;
+	background-color: #55A69C;
+}
+#bar5 p {
+	margin: 0px;
+	width: 94px;
+	height: 18px;
+	background-color: #55A69C;
+}
+#bar6 p {
+	margin: 0px;
+	width: 94px;
+	height: 18px;
+	background-color: #55A69C;
+}
+#profilestat1 {
+	position: absolute;
+	left: 50px;
+	bottom: 75px;
+}
+#profilestat2 {
+	position: absolute;
+	left: 375px;
+	bottom: 75px;
+}
+#profilestat1 p {
+	font-weight: bold;
+}
+#profilestat2 p {
+	font-weight: bold;
+}
+#stats1 {
+	position: absolute;
+	left: 183px;
+	bottom: 55px;
+	width: 90px;
+	height: 175px;
+}
+#stats2 {
+	position: absolute;
+	left: 517px;
+	bottom: 55px;
+	width: 125px;
+	height: 175px;
 }
 
 @media (max-width:640px){
@@ -491,8 +560,62 @@ body {
 	.type2 {
 		visibility: hidden;
 	}
-}
-
-#maininfo #secondinfo h1 {
-    font-size: 20px;
+	
+	/** Info Page Mobile Styles */
+	#maininfo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+		height: 530px;
+		background-color: #ffffff;
+		position: relative;
+		top: 0px;
+	}
+	#maininfo h1 {
+		top: 15px;
+		font-size: 20px;
+	}
+	#maininfo h2 {
+		position: absolute;
+		left: 150px;
+		top: 5px;
+		opacity: 0.5;
+		font-size: 16px;
+	}
+	#maininfo img {
+		position: absolute;
+		top: 0px;
+		left: 185px;
+		height: 96px;
+		width: 96px;
+	}
+	#maininfo #secondinfo {
+    	position: absolute;
+    	left: 16px;
+    	bottom: 156px;
+		width: 272px;
+		height: 72px;
+	}
+	#profilestat2 {
+		visibility: hidden;
+	}
+	#stats2 {
+		visibility: hidden;
+	}
+	.statbar {
+		position: absolute;
+		top: 103px;
+		left: 100px;
+		height: 18px;
+		width: 188px;
+		background-color: darkgrey;
+	}
+	#maininfo #stats {
+		position: absolute;
+		left: 16px;
+		top: 94px;
+    	height: 135px;
+		width: 63px;
+	}
 }
