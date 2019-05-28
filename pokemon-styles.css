@@ -290,14 +290,14 @@ body {
 	opacity: 0.5;
 }
 #profile {
-	position: relative;
-	top: 372px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	height: 32px;
-	width: 584px;
-	background-color: #bea294;
+    position: relative;
+    top: 330px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 32px;
+    width: 584px;
+    background-color: #bea294;
 }
 #profile p {
 	font-family: 'Roboto';
@@ -312,7 +312,53 @@ body {
 	height: 130px;
 	width: 130px;
 }
-
+#maininfo #secondinfo {
+    position: absolute;
+    left: 44px;
+    bottom: 361px;
+}
+#maininfo #secondinfo p {
+    font-size: 16px;
+}
+#maininfo #stats {
+	position: absolute;
+	left: 345px;
+	top: 94px;
+    height: 135px;
+	width: 63px;
+}
+#maininfo #stats p {
+	margin: 7px;
+	font-weight: bold;
+}
+.statbar {
+	position: absolute;
+	top: 100px;
+	left: 432px;
+	height: 18px;
+	width: 188px;
+	background-color: darkgrey;
+}
+#bar2 {
+	position: absolute;
+	top: 125px;
+}
+#bar3 {
+	position: absolute;
+	top: 150px;
+}
+#bar4 {
+	position: absolute;
+	top: 175px;
+}
+#bar5 {
+	position: absolute;
+	top: 200px;
+}
+#bar6 {
+	position: absolute;
+	top: 225px;
+}
 
 @media (max-width:640px){
     body {
@@ -445,4 +491,8 @@ body {
 	.type2 {
 		visibility: hidden;
 	}
+}
+
+#maininfo #secondinfo h1 {
+    font-size: 20px;
 }

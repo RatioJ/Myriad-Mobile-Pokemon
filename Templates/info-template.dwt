@@ -26,8 +26,26 @@
 			<div class="type2"><p>POISON</p></div>
 		</div>
 		<img src="../images/bulbasaur.png" width="250" height="250" alt=""/>
-	  <div id="profile"><p>Profile</p></div>
-	</div>
+		<div id="secondinfo">
+			<h1>Parent and Child Pokemon</h1>
+			<p>It raises its offspring in its belly pouch. It lets the baby out to play only when it feels safe.</p>
+		</div>
+		<div id="stats">
+			<p>HP</p>
+			<p>Attack</p>
+			<p>Defense</p>
+			<p>Speed</p>
+			<p>Sp Atk</p>
+			<p>Sp Def</p>
+		</div>
+			<div class="statbar" id="bar1"></div>
+			<div class="statbar" id="bar2"></div>
+			<div class="statbar" id="bar3"></div>
+			<div class="statbar" id="bar4"></div>
+			<div class="statbar" id="bar5"></div>
+			<div class="statbar" id="bar6"></div>
+	  		<div id="profile"><p>Profile</p></div>
+		</div>
 </div>
 </body>
 </html>
