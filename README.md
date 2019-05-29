@@ -5,3 +5,6 @@ As I am not familiar with JavaScript to fully utilize its functionality, I decid
 I tried to make something that looked appropriate, but not necessarily having all of the needed functionality (i.e. the search bar does not work and no JavaScript was used for generating pokemon and their respective information).
 Thank you for yor time and consideration!
 Josh Dudgeon
+
+P.S. I did start work on this one day earlier than my initial commit, but I did not know how GitHub worked until that point.
+
