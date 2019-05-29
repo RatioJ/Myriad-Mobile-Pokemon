@@ -4,30 +4,30 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Pokedex App</title>
+<title>Pokédex App</title>
 <!-- TemplateEndEditable -->
 <link href="../pokemon-styles.css" rel="stylesheet" type="text/css">
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head>
 <body>
-<div id="container">
+<!-- TemplateBeginEditable name="EditableRegion" --><div id="container">
 	<div class="title">
-	  	<h1>Pokemon</h1>
+  	  <h1>Pokémon</h1>
 	</div>
 	<div id="nav">
 		<a href="../index.html"><div id="back"><img src="../images/leftarrow.png" width="16" height="16" alt=""/></div></a>
 	</div>
   	<div id="maininfo">
 		<div id="infohead">
-			<h1>Pokemon</h1>
+			<h1>Pokémon</h1>
 			<h2>#1</h2>
 			<div class="type1"><p>GRASS</p></div>
 			<div class="type2"><p>POISON</p></div>
 		</div>
 		<img src="../images/bulbasaur.png" width="250" height="250" alt=""/>
 		<div id="secondinfo">
-			<h1>Parent and Child Pokemon</h1>
+			<h1>Parent and Child Pokémon</h1>
 			<p>It raises its offspring in its belly pouch. It lets the baby out to play only when it feels safe.</p>
 		</div>
 		<div id="stats">
@@ -71,5 +71,6 @@
 		</div>
 	</div>
 </div>
+<!-- TemplateEndEditable -->
 </body>
 </html>
